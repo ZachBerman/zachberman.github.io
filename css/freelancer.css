@@ -90,6 +90,7 @@ header .container {
     padding-bottom: 50px;
     height: 950px;
     width: auto;
+    max-width: 100%;
     background-image: url('../img/04.jpg');
 }
 
