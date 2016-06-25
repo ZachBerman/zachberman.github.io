@@ -104,6 +104,17 @@ header .container {
     background-image: url('../img/04mobile.jpg');
     }
 }
+
+@media only screen and (max-width: 500px) {
+    header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 950px;
+    width: auto;
+    max-width: 100%;
+    background-image: url('../img/04small.jpg');
+    }
+}
 header img {
     dispay: block;
     margin: 0 auto 20px;
