@@ -96,7 +96,7 @@ header .container {
 
 @media only screen and (max-width: 768px) {
     header .container {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 50px;
     height: 950px;
     width: auto;
@@ -105,9 +105,9 @@ header .container {
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
     header .container {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 50px;
     height: 950px;
     width: auto;
