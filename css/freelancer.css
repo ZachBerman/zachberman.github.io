@@ -94,6 +94,16 @@ header .container {
     background-image: url('../img/04.jpg');
 }
 
+@media only screen and (max-width: 768px) {
+    header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 950px;
+    width: auto;
+    max-width: 100%;
+    background-image: url('../img/04mobile.jpg');
+    }
+}
 header img {
     dispay: block;
     margin: 0 auto 20px;
@@ -138,6 +148,7 @@ header .intro-text .skills {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        color: gray;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -514,4 +525,10 @@ footer .footer-below {
     width: 100%;
     background-color: #515557;
     color: #fff;
+}
+
+@media(max-width:768px) {
+.navbar-header.page-scroll {
+    background: #515557;
+    }
 }
