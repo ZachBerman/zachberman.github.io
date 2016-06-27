@@ -1,8 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    background: url('../img/04.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 
 .clr {
     clear: both;
@@ -86,41 +92,29 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 50px;
-    height: 950px;
-    width: auto;
-    max-width: 100%;
-    background-image: url('../img/04.jpg');
 }
 
 @media only screen and (max-width: 768px) {
     header .container {
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 50px;
-    height: 950px;
-    width: auto;
-    max-width: 100%;
-    background-image: url('../img/04mobile.jpg');
     }
 }
 
 @media only screen and (max-width: 400px) {
     header .container {
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 50px;
-    height: 950px;
-    width: auto;
-    max-width: 100%;
-    background-image: url('../img/04small.jpg');
     }
 }
-header img {
+/*header img {
     dispay: block;
     margin: 0 auto 20px;
     width: auto;
     height: auto;
-}
+}*/
 
 header .intro-text .name {
     display: block;
@@ -216,6 +210,10 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-collapse {
+    colof: #fff;
+}
+
 section {
     padding: 100px 0;
 }
@@ -254,6 +252,7 @@ section.success a.active {
 }
 
 #portfolio {
+    margin-top: 400px;
     margin-bottom: 100px;
 }
 
@@ -543,3 +542,8 @@ footer .footer-below {
     background: #515557;
     }
 }
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
