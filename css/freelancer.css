@@ -541,6 +541,9 @@ footer .footer-below {
 .navbar-header.page-scroll {
     background: #515557;
     }
+div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+    background: #515557;
+    }
 }
 
 .navbar-default .navbar-toggle {
