@@ -146,9 +146,7 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
-}
 
-@media(min-width:768px) {
     .navbar-fixed-top {
         /*padding: 25px 0;*/
         -webkit-transition: padding .3s;
@@ -243,7 +241,7 @@ section.success a.active {
 }
 
 @media screen and (max-width: 767px) and (min-width: 0px) {
-body {
+    body {
     overflow-x: hidden; 
     background: #fff; 
     -webkit-background-size: cover;
