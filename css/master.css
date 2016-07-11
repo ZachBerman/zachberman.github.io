@@ -2,7 +2,7 @@
 
 body {
     overflow-x: hidden; 
-    background: url('../img/04.jpg') no-repeat center center fixed; 
+    /*background: url('../img/04.jpg') no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,6 +10,15 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.image {
+    background: url('../img/04.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    height: 1000px;
+}
 
 .clr {
     clear: both;
@@ -220,7 +229,7 @@ header .intro-text .skills {
 }
 
 .navbar-collapse {
-    colof: #fff;
+    color: #fff;
 }
 
 section {
@@ -230,11 +239,12 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    color: #515557;
 }
 
 section.success {
-    color: #fff;
-    background: #515557;
+    color: #515557;
+    background: #fff;
 }
 
 section.success a,
@@ -271,8 +281,8 @@ section.success a.active {
 }
 
 #portfolio {
-    margin-top: 400px;
     margin-bottom: 100px;
+    background: gray;
 }
 
 #portfolio .portfolio-item {
@@ -292,7 +302,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: gray;
+    background: blue;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -324,6 +334,10 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
+}
+
+#portfolio h2 {
+    color: #fff;
 }
 
 @media(min-width:767px) {
@@ -407,7 +421,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    background-color: #fff;
+    color: #515557;
 }
 
 footer h3 {
@@ -416,7 +431,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 10px;
-    background-color: #515557;
+    background-color: #fff;
 }
 
 footer .footer-col {
@@ -552,27 +567,33 @@ footer .footer-below {
 
 .send {
     width: 100%;
-    background-color: #515557;
+    background-color: #fff;
     color: #fff;
 }
 
+input.btn.btn-lg-success.send {
+    color: #515557;
+}
+
 @media(max-width:768px) {
-.navbar-header.page-scroll {
-    background: #515557;
+    .navbar-header.page-scroll {
+        background: #515557;
     }
 
-  ul.nav.navbar-nav {
-    background: #515557;
-    margin-top: 0px !important;
+    ul.nav.navbar-nav {
+        background: #515557;
+        margin-top: 0px !important;
     }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+}
 
-
-/*div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+#contact {
     background: #515557;
-    }*/
+    color: #fff;
 }
 
-.navbar-default .navbar-toggle {
-    border-color: transparent;
+#contact h2 {
+    color: #fff;
 }
-
