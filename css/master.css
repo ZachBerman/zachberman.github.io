@@ -114,27 +114,24 @@ header .container {
 }
 
 @media only screen and (max-width: 600px) {
-body {
-    overflow-x: hidden; 
-    background: url('../img/04small.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Oswald', sans-serif;
-}
+    body {
+        overflow-x: hidden;  
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: 'Oswald', sans-serif;
+    }
 
     header .container {
-    padding-top: 200px;
-    padding-bottom: 50px;
+        padding-top: 200px;
+        padding-bottom: 50px;
+        }
+
+    .image {
+        height: 700px;
     }
 }
-/*header img {
-    dispay: block;
-    margin: 0 auto 20px;
-    width: auto;
-    height: auto;
-}*/
 
 header .intro-text .name {
     display: block;
@@ -260,15 +257,10 @@ section.success a.active {
     text-align: justify;
 }
 
-@media screen and (max-width: 767px) and (min-width: 0px) {
+@media screen and (max-width: 600px) and (min-width: 0px) {
     body {
-    overflow-x: hidden; 
-    background: url('../img/04small.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Oswald', sans-serif;
+        overflow-x: hidden; 
+        font-family: 'Oswald', sans-serif;
 }
 
     section {
@@ -578,6 +570,10 @@ input.btn.btn-lg-success.send {
 @media(max-width:768px) {
     .navbar-header.page-scroll {
         background: #515557;
+    }
+
+    .image {
+        /*height: 700px;*/
     }
 
     ul.nav.navbar-nav {
