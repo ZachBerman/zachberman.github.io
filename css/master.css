@@ -111,6 +111,15 @@ header .container {
     padding-top: 200px;
     padding-bottom: 50px;
     }
+
+    .nav.navbar-nav.navbar-right a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .nav.navbar-nav.navbar-right a:hover {
+    color: #fff;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -134,7 +143,7 @@ header .container {
 }
 
 header .intro-text .name {
-    display: block;
+    display: none;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
@@ -143,6 +152,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
+    display: none;
     font-size: 1.25em;
     font-weight: 300;
     color: #515557;
@@ -210,6 +220,7 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a {
     color: #515557;
+    text-decoration: none;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -598,7 +609,7 @@ input.btn.btn-lg-success.send {
     color: #515557;
 }
 
-#about {
-    padding-top: 0px;
-}
+
+
+
 
