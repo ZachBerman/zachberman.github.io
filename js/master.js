@@ -39,7 +39,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Remove send button
 $("input.send").on("click", function() {  
-  $("input.send").html("<h4>Message Sent!</h4>");  
+  $("input.send").replaceWith("<h4 class = text-center>Message Sent!</h4>");  
 });  
 
   // after 8 monday after 9 tues
