@@ -37,20 +37,10 @@ $('.navbar-collapse ul li a').click(function() {
     $( ".name, .skills" ).fadeIn(5000)
   });
 
-// Remove send button
-// $("input.send").on("click", function() {  
-//   $("input.send").hide("");  
-// });  
+$(document).ready(function(){
+    $("form").submit(function(){
+        alert("Message Sent!");
+    });
+});
 
   // after 8 monday after 9 tues
-
-
-
-// $( "#contacter" ).submit(function( event ) {
-//   alert( "Handler for .submit() called." );
-//   event.preventDefault();
-// });
-
-// $( "#contacter" ).click(function() {
-//   $( "input.send" ).submit();
-// });
