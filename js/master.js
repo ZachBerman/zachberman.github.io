@@ -37,10 +37,9 @@ $('.navbar-collapse ul li a').click(function() {
     $( ".name, .skills" ).fadeIn(5000)
   });
 
+// Replace send button with "message sent"
 $(document).ready(function(){
     $("form").submit(function(){
-        alert("Message Sent!");
+        $("input.send").replaceWith("<h4 class=text-center>Message Sent!</h4>");
     });
 });
-
-  // after 8 monday after 9 tues
