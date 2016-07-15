@@ -38,9 +38,19 @@ $('.navbar-collapse ul li a').click(function() {
   });
 
 // Remove send button
-$("input.send").on("click", function() {  
-  $("input.send").replaceWith("<h4 class = text-center>Message Sent!</h4>");  
-});  
+// $("input.send").on("click", function() {  
+//   $("input.send").hide("");  
+// });  
 
   // after 8 monday after 9 tues
 
+
+
+// $( "#contacter" ).submit(function( event ) {
+//   alert( "Handler for .submit() called." );
+//   event.preventDefault();
+// });
+
+// $( "#contacter" ).click(function() {
+//   $( "input.send" ).submit();
+// });
