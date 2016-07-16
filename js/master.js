@@ -43,3 +43,6 @@ $(document).ready(function(){
         $("input.send").replaceWith("<h4 class=text-center>Message Sent!</h4>");
     });
 });
+
+// Validate form not empty
+$("#commentForm").validate();
