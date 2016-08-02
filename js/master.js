@@ -40,13 +40,4 @@ $('.navbar-collapse ul li a').click(function() {
 // Validate form input fields are not empty(uses jQuery validate plugin)
 $("#commentForm").validate();
 
-// Replace send button with "message sent"
-// $(document).ready(function(){
-//     $("form").submit(function(){
-//         $("input.send").alert("Thanks!")
-//     });
-// });
 
-$( "form" ).submit(function( event ) {
-  alert( "Submitted! Thanks for contacting us!" );
-});
