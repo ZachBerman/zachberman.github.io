@@ -12,6 +12,7 @@
   <title>Zach Berman</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/master.css" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
   <!--[if lt IE 9]>
@@ -72,7 +73,7 @@
 
   <!-- Portfolio Grid Section -->
   <section id="portfolio">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2>Portfolio</h2>
@@ -147,7 +148,7 @@
 
   <!-- About Section -->
   <section class="success" id="about">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2>About</h2>
@@ -174,7 +175,7 @@
 
   <!-- Contact Section -->
   <section id="contact">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2>Contact Me</h2>
@@ -412,6 +413,12 @@
   <script src="js/classie.js"></script>
   <script src="js/cbpAnimatedHeader.js"></script>
   <script src="js/master.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in-out-sine'
+    });
+  </script>
 
 </body>
 </html>
